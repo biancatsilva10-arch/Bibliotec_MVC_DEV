@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vvVRf+6xGbo=",
+  "dgSpecHash": "3nuk+ltR/+I=",
   "success": true,
-  "projectFilePath": "c:\\Users\\48103857874\\Desktop\\Bibliotec_MVC_DEV\\Bibliotec_MVC_DEV.csproj",
+  "projectFilePath": "C:\\Users\\48103857874\\Desktop\\Bibliotec_MVC_DEV\\Bibliotec_MVC_DEV.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\48103857874\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\48103857874\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
