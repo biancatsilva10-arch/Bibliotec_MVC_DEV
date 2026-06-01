@@ -17,8 +17,8 @@ namespace Bibliotec_MVC_DEV.Models
         [StringLength(100)]
         public string Autor { get; set; } = null!;
 
-        public string AnoPublicacao { get; set; } = null!;
-
+        public int AnoPublicacao { get; set; }
+        
         [Required]
         [StringLength(1)]
         public string Status { get; set; }= null!;

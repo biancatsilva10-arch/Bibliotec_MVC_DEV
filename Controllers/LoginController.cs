@@ -31,7 +31,7 @@ namespace Bibliotec_MVC_DEV.Controllers
                 HttpContext.Session.SetString("UsuarioId", usuario.Id.ToString());
                 HttpContext.Session.SetString("Admin", usuario.TipoBib.ToString());
                 
-                return RedirectToAction("Index","Home");
+                return RedirectToAction("Index","Livro");
 
                
             }
@@ -41,7 +41,12 @@ namespace Bibliotec_MVC_DEV.Controllers
 
         }
 
-
+        [HttpPost]
+        public IActionResult Deslogar()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index");
+        }
 
     }
 }
